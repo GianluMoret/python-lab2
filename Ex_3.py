@@ -40,7 +40,7 @@ while init!=10:
                     list_del.remove(string_del)
                     #in position j(current position in the list)
                     del list[j]
-                    print("task containig "+string_del+" has been successfully removed")
+                    print("task containing "+string_del+" in position",j, "has been successfully removed")
             j = j + 1
     elif int(choice) == 3:
         print("These are all the task, sorted in alphabetical order:")
